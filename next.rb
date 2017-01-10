@@ -29,5 +29,12 @@ end
 
 puts bank_balance(pin_number)
 
+def divide(first_number, second_number)
+  return first_number / second_number
+end
+
+puts divide(4,2)
+
+
 
 
