@@ -16,4 +16,18 @@ end
 
 puts length_of_name("John", "Smith")
 
+puts "What is your pin number?"
+pin_number = gets.chomp.to_i
+
+def bank_balance(pin_code)
+  if (pin_code == 1234) 
+    return 9999.99
+  else
+    return "Incorrect Pin"
+  end
+end
+
+puts bank_balance(pin_number)
+
+
 
