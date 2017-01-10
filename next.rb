@@ -116,4 +116,10 @@ height = gets.chomp.to_f
 puts fairground_admittance(weight, height)
 
 
+def reverse_name(first_name, second_name)
+  return first_name.reverse + second_name.reverse
+end
+
+puts reverse_name("John", "Smith")
+
 
